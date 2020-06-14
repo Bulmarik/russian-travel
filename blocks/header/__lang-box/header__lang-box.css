@@ -1,0 +1,6 @@
+.header__lang-box {
+    display: flex;
+    margin-top: 18px;
+    align-self: flex-start;
+    align-items: flex-start;
+}
