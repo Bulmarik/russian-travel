@@ -12,10 +12,18 @@
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: calc(100%*460/984) calc(100%*484/984);
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, min-content);
     grid-gap: 48px 40px;
 }
 
 .place:last-of-type {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place{
+        min-height: 564px;
+        grid-template-columns: calc(100%*440/928) calc(100%*456/928);
+        grid-gap: 48px 32px;
+    }
 }

@@ -2,11 +2,20 @@
 
 .photo-grid {
     width: 100%;
-    min-height: 671;
-    margin-top: 92px;
+    min-height: 671px;
+    box-sizing: border-box;
+    padding-top: 92px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, min-content);
     grid-auto-rows: min-content;
     grid-gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        min-height: 942px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 14px;
+    }
 }
