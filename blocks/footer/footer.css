@@ -3,9 +3,16 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-    padding-top: 92px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    box-sizing: border-box;
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 92px 48px 0;
+    }
 }
