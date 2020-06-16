@@ -15,8 +15,23 @@
 @media screen and (max-width: 1024px) {
     .photo-grid {
         padding: 92px 48px 0;
-        min-height: 942px;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        padding: 88px 24px 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        padding: 64px 16px 0;
+        grid-template-columns: 1fr;
+        grid-gap: 12px;
     }
 }

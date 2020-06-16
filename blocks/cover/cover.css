@@ -6,7 +6,19 @@
 
 .cover {
     width: 100%;
-    min-height: 640px;
+    min-height: 200px;
     box-sizing: border-box;
     padding-top: 92px;    
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-top: 88px;    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        padding-top: 64px;    
+    }
 }
