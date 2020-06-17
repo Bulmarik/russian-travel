@@ -23,7 +23,13 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 686px) {
+    .lead {
+        max-width: 560px;
+    }
+}
+
+@media screen and (max-width: 436px) {
     .lead {
         max-width: 320px;
     }

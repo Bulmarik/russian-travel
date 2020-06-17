@@ -3,7 +3,7 @@
     margin-top: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 436px) {
     .header__lang-box {
         margin-top: 14px;
     }

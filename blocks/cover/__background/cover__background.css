@@ -39,7 +39,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .cover__background {
         height: 200px;
     }

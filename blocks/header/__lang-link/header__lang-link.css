@@ -13,7 +13,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 436px) {
     .header__lang-link {
         width: 22px;
         height: 24px;
