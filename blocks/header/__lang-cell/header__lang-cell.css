@@ -1,0 +1,14 @@
+.header__lang-cell {
+    width: 30px;
+    margin-right: 18px;
+}
+
+.header__lang-cell:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 436px) {
+    .header__lang-cell {
+        width: 22px;
+    }
+}

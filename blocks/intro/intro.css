@@ -2,10 +2,10 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__list-item/intro__list-item.css);
+@import url(./__span/intro__span.css);
 
 .intro {
     width: calc(100% - 2*100px);
-    min-height: 428px;
     box-sizing: border-box;
     padding-top: 92px;
 }

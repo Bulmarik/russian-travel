@@ -8,7 +8,6 @@
 
 .place {
     width: 100%;
-    min-height: 434px;
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: calc(100%*460/984) calc(100%*484/984);
